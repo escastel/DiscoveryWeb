@@ -1,0 +1,72 @@
+body, html {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .table {
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    justify-content: center;  
+  }
+
+  .titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .foto {
+    height: 10%;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .user {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .descripcion {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .malaga {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: palevioletred;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  button:hover, a:hover {
+    opacity: 1;
+  }
